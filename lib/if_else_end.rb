@@ -1,5 +1,4 @@
 # Write your solution here
 
-time = Time.now
-
-if time.strf
+if Time.now.to_i % 2 == 0
+  
